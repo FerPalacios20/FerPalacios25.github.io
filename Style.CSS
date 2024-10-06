@@ -1,0 +1,82 @@
+h1 {
+    font-family: "Forum", system-ui;
+    font-size: 95px;
+    color: rgb(255, 187, 0)
+}
+
+h2 {
+    font-family: "Mate SC", serif;
+    font-size: 500%;
+    color: rgb(255, 187, 0);
+}
+
+h3 {
+    font-family: "Cinzel", system-ui;
+    font-size: 250%;
+    color: rgb(255, 187, 0);
+}
+
+p {
+    font-family: "Libre Bodoni", serif;
+    font-size: 300%;
+    color: white;
+}
+
+
+body {
+    background-color: rgb(85, 0, 0);
+}
+
+header {
+    background-color: black;
+}
+
+.container {
+    max-width: 1928px;
+    margin: 0% auto;
+}
+
+.menu {
+    position: static;
+    top: 0%;
+    left: 20%;
+    right: 20%;
+    display: flex;
+    align-items: center;
+    justify-content:center
+    
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 20px;
+    padding: 35px;
+    color: rgb(255, 0, 0);
+    display: block;
+}
+
+.menu .navbar ul li a:hover {
+    color: rgb(175, 0, 0);
+}
+
+.menu {
+    cursor: pointer;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-txt {
+    text-align: center;
+    margin-bottom: 45px;
+}

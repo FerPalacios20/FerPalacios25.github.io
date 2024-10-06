@@ -1,0 +1,69 @@
+h1 {
+    font-family: "Bebas Neue", sans-serif;
+    color: rgb(255, 187, 0);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(85, 0, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+form {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    width: 420px;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+    text-align: center;
+}
+
+form h1 {
+    font-size: 100px;
+    margin-bottom: 35px;
+}
+
+input {
+    padding: 17px;
+    border-radius: 55px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 187, 0);
+    margin-bottom: 30px;
+    outline: none;
+    color: white;
+    font-size: 20px;
+}
+
+::placeholder {
+    color: rgb(255, 0, 0);
+}
+
+.btn {
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 187, 0);
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color:  rgb(255, 0, 0);
+    border: 2px solid rgb(255, 187, 0);
+}
+
+@media (max-width:991px) {
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 340px;
+    }
+}
